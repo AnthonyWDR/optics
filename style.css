@@ -39,14 +39,18 @@ nav {
 .info p {
   margin: 0rem 1rem;
 }
+.specialcontainer {
+  width: 1040px;
+}
 .quote {
   border: 1px solid red;
   display: flex;
   justify-content: flex-end;
+  margin: auto;
 }
 .quote p {
   background-color: white;
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 3rem 1.5rem 5rem;
   margin-top: 10rem;
   width: 45%;
   font-weight: bold;
