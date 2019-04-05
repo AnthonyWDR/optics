@@ -13,7 +13,6 @@ html {
   background-size: cover;
   height: 31rem;
   width: 100%;
-  border: 4px solid gold;
 }
 .banner img {
   height: 1.5rem;
@@ -27,12 +26,19 @@ nav {
   justify-content: space-between;
   align-items: center;
   color: white;
-
 }
-.logo span {
-
+.logo {
+  display: flex;
+  align-items: center;
 }
 .info  {
   display: flex;
   margin: 1rem;
+}
+.info p {
+  margin: 0rem 1rem;
+}
+.quote {
+  background-color: white;
+  padding: 1.5rem 5rem;
 }
