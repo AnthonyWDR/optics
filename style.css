@@ -40,10 +40,9 @@ nav {
   margin: 0rem 1rem;
 }
 .specialcontainer {
-  width: 1040px;
+  width: 1032px;
 }
 .quote {
-  border: 1px solid red;
   display: flex;
   justify-content: flex-end;
   margin: auto;
@@ -56,4 +55,7 @@ nav {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
+}
+.cards {
+  border: 1px solid red;
 }
