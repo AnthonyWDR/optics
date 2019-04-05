@@ -12,7 +12,7 @@
   background-size: cover;
   height: 31rem;
 }
-header .container {
+header {
   background-color: cadetblue;
   margin-top: 1rem;
   display: flex;
@@ -20,6 +20,7 @@ header .container {
 }
 nav {
   display: flex;
+  width: 30%;
 }
 .logo img {
   height: 1.5rem;
