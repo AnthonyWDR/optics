@@ -1,5 +1,6 @@
 html {
   font-size: 18px;
+  font-family: helvetica;
 }
 
 .container {
@@ -88,4 +89,24 @@ nav {
 }
 .car img {
   width: 5rem;
+}
+.about {
+  margin-top: 3rem;
+  display: flex;
+}
+.philo h1, .appoint h1 {
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  text-align: center;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.philo p,  .appoint p {
+  width: 35%;
+  border: 1px solid red;
+}
+.philo p {
+  margin-right: 5%;
 }
