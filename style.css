@@ -4,7 +4,7 @@ html {
 
 .container {
   width: 960px;
-
+  margin: 1rem auto 0rem auto;
 }
 .banner {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
@@ -22,7 +22,7 @@ html {
 }
 nav {
   background-color: cadetblue;
-  margin: 1rem auto 0rem auto;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,5 +57,35 @@ nav {
   line-height: 1.2;
 }
 .cards {
-  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.card img {
+  margin: 0rem 3rem 0rem 3rem;
+}
+.card p {
+  width: 5rem;
+  margin-top: auto;
+  text-align: center;
+}
+.paper p  {
+  width: 8rem;
+  text-align: center;
+}
+.card {
+  height: 8rem;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.paper img {
+  width: 3.5rem;
+  align-self: center;
+}
+.ruler img {
+  width: 5rem;
+}
+.car img {
+  width: 5rem;
 }
