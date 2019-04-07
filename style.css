@@ -103,10 +103,30 @@ nav {
   margin-bottom: 1rem;
   font-weight: bold;
 }
-.philo p,  .appoint p {
-  width: 35%;
-  border: 1px solid red;
+.philo p {
+  width: 70%;
+}
+.appoint p {
+  width: 70%;
 }
 .philo p {
   margin-right: 5%;
+}
+.philo, .appoint {
+  width: 50%;
+}
+footer {
+  margin-top: 5rem;
+}
+footer .container {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+}
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
 }
